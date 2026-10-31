@@ -70,7 +70,7 @@ Listed in the order of `Kernel > Add` in `config.plist`.
 
 ## NVIDIA (`LibraryExtensions/`)
 
-NullMoth NVIDIA driver 2.5.5 kexts for the RTX 3060 Laptop GPU: `NVRM`, `NVRMFB`, `NVRMAGDC`,
+NullMoth NVIDIA driver 2.6.5 kexts for the RTX 3060 Laptop GPU: `NVRM`, `NVRMFB`, `NVRMAGDC`,
 `NVAccel`, plus `EFI/OC/Tools/NullMothSafe.efi`. These are only the kernel parts; Metal
 acceleration also needs the rest of the NullMoth package (`/Library/NullMoth`, its LaunchDaemon
 and bundles), so install it with NullMoth's own installer rather than copying these by hand.
